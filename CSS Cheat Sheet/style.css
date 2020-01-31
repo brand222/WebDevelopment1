@@ -1,12 +1,177 @@
-body{
-    background-color:#f4f4f4;
-    color:#555555;
+* {
+  margin:0;
+  padding:0;
+}
 
-    font-family: Arial, Helvetica, sans-serif;
-    font-size:16px;
-    font-weight:normal;
-    /*same as above*/
-    font: normal 16px Arial, Helvetica, sans-serif;
 
-    line-height:1.6em;
+body {
+  background-color: #f4f4f4;
+  color: #555555;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  background: darkgrey;
+  /*same as above*/
+  font: normal 16px Arial, Helvetica, sans-serif;
+
+  line-height: 1.6em;
+}
+
+button {
+  color: brown;
+  background-color: black;
+}
+
+table {
+  color: blue;
+  background: darkturquoise;
+}
+
+a {
+  text-decoration: none;
+  color:#000;
+}
+
+a:hover {
+  color:red;
+}
+
+a:active {
+  color:green;
+}
+
+a:visited {
+  color:black;
+}
+
+.container{
+  width:80%;
+  margin: auto;
+}
+
+.button {
+  background-color:green;
+  color:#fff;
+  padding:10px 15px;
+  border:none;
+}
+
+.clr{
+  clear:both;
+}
+
+
+.box-1{
+  background-color: #333;
+  color: #fff;
+  border-right: 5px red solid;
+  border-left: 5px red solid;
+  border-top: 5px red solid;
+  border-bottom: 5px red solid;
+  /*Same as above*/
+  border: 5px red solid;
+  border-width:3px;
+  border-bottom-width: 10px;
+  border-top-style:dotted;
+
+  padding-top:20px;
+  padding-bottom:20px;
+  padding-right:20px;
+  padding-left:20px;
+
+  /*Same as above^*/
+  padding:20px;
+  margin-top:20px;
+}
+
+.box-1 h1 {
+  font-family:Tahoma;
+  font-weight:800;
+  /*sets text to italic*/
+  font-style:italic;
+  /*underlines the text*/
+  text-decoration: underline;
+  /*sets text to upper case*/
+  text-transform: uppercase;
+  /*put space between letters*/
+  letter-spacing:0.2em;
+  /*space between words*/
+  word-spacing: 1em;
+}
+
+.box-2 {
+  border:3px dotted #ccc;
+  padding:20px;
+  margin: 20px 0;
+}
+
+.categories {
+  border:1px #ccc solid;
+  padding:10px;
+  border-radius:15px;
+}
+
+.categories h2{
+  text-align: center;
+}
+
+.categories ul{
+  padding:0;
+  list-style:square;
+  list-style:none;
+}
+
+.categories li{
+  padding-bottom:6px;
+  border-bottom:dotted 1px #333;
+  list-style-image: url('check.png');
+}
+
+.my-form{
+  padding:20px
+}
+
+.my-form .form-group{
+  padding-bottom:15px;
+}
+
+.my-form label{
+  display:block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+  padding:8px;
+  width:100%;
+}
+
+.button:hover {
+  background:red;
+  color:white;
+}
+
+.block{
+  float:left;
+  width:33.3%;
+  border:1px solid #ccc;
+  padding:10px;
+  /*takes in padding and applies to width to fit everything on line*/
+  box-sizing:border-box;
+}
+
+#main-block{
+  float:left;
+  width:70%;
+  padding:15px;
+  box-sizing:border-box;
+}
+
+#sidebar{
+  float:right;
+  width:30%;
+  background-color:#333;
+  color:#fff;
+  padding:15px;
+  box-sizing:border-box;
+  padding
 }
